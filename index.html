@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="header">
+        <div class="content-wrapper">
+            <div class="text-content">
+                <h1>Hello!</h1>
+                <h2>I'm <b>Aurosampad Mohanty</b>.</h2> 
+                <h3>Machine Learning Engineer</h3> 
+            </div>
+            <img id="profile-image" src="Images\WhatsApp Image 2024-09-11 at 11.23.07_ad0febc9.jpg" alt="Your Image">
+        </div> 
+    </div>
+    <!-- ---------Background---  -->
+    <div id="particles-js"></div>
+    <!-- ---------about--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/IMG-20221202-WA0039.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a <b>Machine Learning Engineer</b> currently pusuing my <b>Bachelor's in Technology</b> in <b>Electronics and Instrumentation Engineering</b> at <b>Odisha University of Technology and Research, Bhubaneswar</b>. Considering my professional experience,I have completed my internship as a <b>Data Science Intern</b> at <b>Analytic Labs</b>, an <b>AI developer</b> at the Agritech startup- <b>Farmoid Robotech Pvt. Ltd.</b> and a <b>Student Research Intern</b> at the <b>Centre of Excellence in AI(Tech Mahindra,OUTR)</b>. I have worked on my personal projects like <b>"Fine-Tuning of Yolo-v8 for vehicles detection in a traffic footage"</b>, <b>"Text-Recognition and Keyword Searching using GOT-OCR model"</b> and <b>"Diabetis Detection using AI"</b> which I have containerised using <b>Docker</b> and deployed it on <b>FastAPI</b>. I love solving real-world problems with the help of trending technologies like <b>Machine Learning/Artificial Intellgence, MLOps, IoT etc</b>.I have an indermediate foundation of <b>Data Structures and Algorithms</b> and I solve them using <b>Python</b>.</p>
+                    <p>
+                      <a href="https://drive.google.com/file/d/18xc87psHy60kToW4-TEi7ChzWmidc_Jq/view?usp=sharing" target="_blank" class="resume-button">
+                          Resume
+                      </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------experience------------- -->
+    <section id="experience" class="timeline-section">
+        <h2>Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item center">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Data Science Intern @Analytic Labs</h3>
+                    <p class="timeline-date">(Jun,2023 - Sept,2023)</p>
+                    <ul>
+                        <li>Successfully directed and delivered three research-based projects—<b>Cloud Instance Forecasting</b>, <b>Demand Forecasting Using Time Series</b>, and <b>Diabetic Detection Using AI</b>, providing innovative and data-driven solutions to clients.</li>
+                        <li>Analyzed historical usage patterns of <b>Cloud Computing</b> resources and applied advanced machine learning algorithms to predict future resource demands.</li>
+                        <li>Utilized <b>Time-Series analysis</b> techniques, such as <b>ARIMA</b> and <b>LSTM</b> models, to predict future demand trends for various products and services that allowed clients to anticipate market changes and plan inventory effectively.</li>
+                        <li>Assisted clients in writing and formatting research papers, ensuring high-quality documentation.</li>
+                        <li>Experimented with various <b>FaaS</b> methods, improving the <b>Forecasting Accuracy</b> by 30%.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-item center">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3>Artificial Intelligence Developer @Farmoid Robotech Pvt. Ltd.</h3>
+                <p class="timeline-date">(Feb,2024 - Jun,2024)</p>
+                <ul>
+                    <li>Spearheaded a 3-member team in developing AI/ML-methods for real-time operations, resulting in a 30% accuracy improvement in areas like <b>Crop Yield Prediction, Market Price Prediction, etc.</b></li>
+                    <li>Designed and implemented an innovative <b>Crop Recommendation system</b> leveraging the weather data collected in real-time to enhance the decision-making process in farmers.</li>
+                    <li> Successfully deployed the above-mentioned projects on <b>Streamlit</b>, ensuring seamless integration and user-friendly access.</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="timeline-item center">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3>Student Research Intern @Centre of Excellence in AI (OUTR), Tech Mahindra</h3>
+                <p class="timeline-date">(Jan,2024 - Present)</p>
+                <ul>
+                    <li> Lead a research project focused on tuning <b>PID Electronic Controller parameters</b> using various <b>Optimization techniques</b>, aiming to improve their Accuracy by 20%.</li>
+                    <li>Actively reading, reviewing, and implementing findings from latest research papers in <b>Control Systems</b> and <b>Machine Learning</b>, applying the latest methodologies.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- -----------projects------------- -->
+    <div id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-box">
+                <div class="project-image">
+                    <img src="Images/Diabetis.jpg" alt="Diabetis Detection using AI">
+                </div>
+                <div class="project-content">
+                    <h3>Diabetis Detection using AI</h3>
+                    <ul>
+                        <li>Developed an AI-based application to detect Diabetes by analyzing medical data and predicting conditions with high accuracy.</li>
+                        <li>Made a comparative analysis of ML models like <b>Random Forest Classifier</b>, <b>Decision Tree Classifier</b>, <b>Naive Bayes Classifier</b>, <b>Support Vector Machine Classifier</b> and <b>Logistic Regression to find the best model for classification</b>.</li>
+                        <li>Evaluated the model's performance on the basis of metrics like <b>Accuracy</b>, <b>Precision</b>, <b>Recall</b>, <b>F1 Score</b>, <b>Confusion Matrix</b> and <b>ROC-AUC Curve</b>.</li>
+                        <li>Containerized the application using <b>Docker</b> and deployed it on <b>FastAPI</b> for robust and scalable accessibility.</li>
+                        <li>The application can also classify the Diabetis as Type-1/Type-2 other than detectiing its presence/absence.</li>
+                    </ul>
+                    <a href="https://github.com/Aurosampad/Diabetic-Detection-using-AI" target="_blank" class="github-link">View on GitHub</a>
+                </div>
+            </div>
+            <div class="project-box">
+                <div class="project-image">
+                    <img src="Images/Yolo_v8.jpg" alt="Fine-Tuning Yolo-v8 for vehicle detection,tracking and classification">
+                </div>
+                <div class="project-content">
+                    <h3>Fine-Tuning of Yolo-v8 for vehicle detection,tracking and classification</h3>
+                    <ul>
+                        <li>Developed a real-time traffic monitoring system by fine-tuning <b>YOLO-v8</b> for accurate vehicle detection, classification, and tracking in a traffic video footage.</li>
+                        <li>Used a custom traffic video footage as the dataset for tuning the model's state-of-the-art object detection capabilities for a particular task of vehicle detection and classification</li>
+                        <li>Utilized the <b>Supervision library</b> of <b>Roboflow</b> to process and analyze traffic data to ensure the correct prediction of the vehicles as per their <b>Confidence Scores</b>.</li>
+                        <li>The combination of the <b>Supervision library</b> and the <b>Yolo-v8</b> helped in the improvement of the prediction <b>Accuracy </b> upto 90%.</li>
+                    </ul>
+                    <a href="https://github.com/Aurosampad/Object-Detection" target="_blank" class="github-link">View on GitHub</a>
+                </div>
+            </div>
+            <div class="project-box">
+                <div class="project-image">
+                    <img src="Images/Drug_reviews.jpg" alt="Drug Reviews classification using NLP">
+                </div>
+                <div class="project-content">
+                    <h3>Drug Reviews Classification using NLP</h3>
+                    <ul>
+                        <li>Built an AI-driven system to classify drug reviews into categories like positive, negative, or neutral, aiding in analyzing patient sentiments and drug efficacy.</li>
+                        <li>Employed advanced <b>Natural Language Processing (NLP)</b> techniques to preprocess, analyze, and classify textual data from user reviews.</li>
+                        <li> Conducted a comparative analysis of various text classification algorithms, including <b>Passive Aggressive Classifier</b> and <b>Naive Bayes Classifier</b> etc.,to achieve optimal Accuracy.</li>
+                        <li>Designed and deployed the project using <b>Gradio</b> interface, providing an user-friendly interface for real-time drug reviews classification.</li>
+                        <li>Containerized the application using <b>Docker</b> and deployed it on <b>FastAPI</b> for robust and scalable accessibility.</li>
+                    </ul>
+                    <a href="https://github.com/Aurosampad/Drug-Reviews-Classification" target="_blank" class="github-link">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------Skills------------ -->
+    <section id="Skills">
+        <div class="container">
+          <h2>Skills</h2>
+      
+          <!-- Programming Languages -->
+          <div class="skills-category">
+            <div class="category-header">
+              <h3>Programming Languages-:</h3>
+            </div>
+            <div class="skill">
+              <img src="Images/python.jpg" alt="Python Icon" class="skill-icon">
+              <span>Python</span>
+            </div>
+            <div class="skill">
+              <img src="Images/C++.jpg" alt="C++ Icon" class="skill-icon">
+              <span>C++</span>
+            </div>
+            <div class="skill">
+              <img src="Images/JAVA.jpg" alt="Java Icon" class="skill-icon">
+              <span>Java</span>
+            </div>
+            <div class="skill">
+              <img src="Images/MYSQL.jpg" alt="MySQL Icon" class="skill-icon">
+              <span>MySQL</span>
+            </div>
+          </div>
+      
+          <!-- Libraries -->
+          <div class="skills-category">
+            <div class="category-header">
+               <h3>Libraries-:</h3>
+            </div>
+            <div class="skill">
+              <img src="Images/Tensorflow.jpg" alt="TensorFlow Icon" class="skill-icon">
+              <span>TensorFlow</span>
+            </div>
+            <div class="skill">
+              <img src="Images/scikit-learn.jpg" alt="Scikit-learn Icon" class="skill-icon">
+              <span>Scikit-learn</span>
+            </div>
+            <div class="skill">
+              <img src="Images/Numpy.jpg" alt="NumPy Icon" class="skill-icon">
+              <span>NumPy</span>
+            </div>
+            <div class="skill">
+              <img src="Images/OpenCV.jpg" alt="OpenCV Icon" class="skill-icon">
+              <span>OpenCV</span>
+            </div>
+            <div class="skill">
+              <img src="Images/NLTK.jpg" alt="NLTK Icon" class="skill-icon">
+              <span>NLTK</span>
+            </div>
+            <div class="skill">
+              <img src="Images/Pytorch.jpg" alt="PyTorch Icon" class="skill-icon">
+              <span>PyTorch</span>
+            </div>
+            <div class="skill">
+              <img src="Images/Keras.jpg" alt="Keras Icon" class="skill-icon">
+              <span>Keras</span>
+            </div>
+          </div>
+      
+          <!-- Frameworks & Tools -->
+          <div class="skills-category">
+            <div class="category-header">
+              <h3>Frameworks & Tools-:</h3>
+            </div>
+            <div class="skill">
+              <img src="Images/Git_Github.jpg" alt="Git/GitHub Icon" class="skill-icon">
+              <span>Git/Github</span>
+            </div>
+            <div class="skill">
+              <img src="Images/FlaskAPI.jpg" alt="Flask Icon" class="skill-icon">
+              <span>FlaskAPI</span>
+            </div>
+            <div class="skill">
+              <img src="Images/FastAPI.jpg" alt="FastAPI Icon" class="skill-icon">
+              <span>FastAPI</span>
+            </div>
+            <div class="skill">
+              <img src="Images/Streamlit.jpg" alt="Streamlit Icon" class="skill-icon">
+              <span>Streamlit</span>
+            </div>
+            <div class="skill">
+              <img src="Images/Gradio.jpg" alt="Gradio Icon" class="skill-icon">
+              <span>Gradio</span>
+            </div>
+            <div class="skill">
+              <img src="Images/HTML.jpg" alt="HTML Icon" class="skill-icon">
+              <span>HTML</span>
+            </div>
+            <div class="skill">
+              <img src="Images/CSS.jpg" alt="CSS Icon" class="skill-icon">
+              <span>CSS</span>
+            </div>
+            <div class="skill">
+              <img src="Images/Javascript.jpg" alt="JavaScript Icon" class="skill-icon">
+              <span>JavaScript</span>
+            </div>
+            <div class="skill">
+              <img src="Images/Docker.jpg" alt="Docker Icon" class="skill-icon">
+              <span>Docker</span>
+            </div>
+          </div>
+      
+          <!-- Software Skills -->
+          <div class="skills-category">
+            <div class="category-header">
+              <h3>Software Domains-:</h3>
+            </div>
+            <div class="skill">
+              <img src="Images/DL.jpg" alt="Git/GitHub Icon" class="skill-icon">
+              <span>Deep Learning</span>
+            </div>
+            <div class="skill">
+              <img src="Images/ML.jpg" alt="Git/GitHub Icon" class="skill-icon">
+              <span>Machine Learning</span>
+            </div>
+            <div class="skill">
+              <img src="Images/CV.jpg" alt="Git/GitHub Icon" class="skill-icon">
+              <span>Computer Vision</span>
+            </div>
+            <div class="skill">
+              <img src="Images/NLP.jpg" alt="Git/GitHub Icon" class="skill-icon">
+              <span>Natural Language Processing</span>
+            </div>
+            <div class="skill">
+              <img src="Images/DBMS.jpg" alt="Git/GitHub Icon" class="skill-icon">
+              <span>Database Management</span>
+            </div>
+            <div class="skill">
+              <img src="Images/OOPS.jpg" alt="Git/GitHub Icon" class="skill-icon">
+              <span>Object-Oriented Programming</span>
+            </div>
+            <div class="skill">
+              <img src="Images/GEN_AI.jpg" alt="Git/GitHub Icon" class="skill-icon">
+              <span>Generative AI</span>
+            </div>
+            <div class="skill">
+              <img src="Images/SD.jpg" alt="Git/GitHub Icon" class="skill-icon">
+              <span>System Design</span>
+            </div>
+            <div class="skill">
+              <img src="Images/DevOps.jpg" alt="Git/GitHub Icon" class="skill-icon">
+              <span>DevOps</span>
+            </div>
+          </div>
+        </div>
+    </section>      
+    <!-- ------------Contact------------ -->
+    <section class="contact" id="contact">
+        <div class="subsections">
+            <!-- Subsection: get_in_touch(); -->
+            <div class="get-in-touch">
+               <h2>get_in_touch();</h2>
+               <div class="details">
+                <div class="detail-item"><strong>Email:</strong> mohantyaurosampad@gmail.com</div>
+                <div class="detail-item"><strong>Phone:</strong> +91-8144604942</div>
+                <div class="detail-item"><strong>Location:</strong> Bhubaneswar, Odisha</div>
+            </div>
+        </div>
+        <!-- Subsection: lets_connect(); -->
+        <div class="lets-connect">
+            <h2>lets_connect();</h2>
+            <div class="social-icons">
+                <a href="https://github.com/Aurosampad" target="_blank" class="social-item">
+                    <img src="Images/Github.jpg" alt="GitHub" class="icon">
+                    <p>GitHub</p>
+                </a>
+                <a href="https://www.linkedin.com/in/aurosampad-mohanty-15a342222/" target="_blank" class="social-item">
+                    <img src="Images/linkedin.jpg" alt="LinkedIn" class="icon">
+                    <p>LinkedIn</p>
+                </a>
+                <a href="https://leetcode.com/u/Aurosam_2025/" target="_blank" class="social-item">
+                    <img src="Images/leetcode.jpg" alt="LeetCode" class="icon">
+                    <p>LeetCode</p>
+                </a>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer>
+          <p>&copy; 2025 Aurosampad Mohanty. All Rights Reserved.</p>
+        </footer>
+      </div>
+    </div>
+</section>
+</body>
+</html>
