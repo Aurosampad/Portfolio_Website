@@ -16,18 +16,6 @@ links.forEach(link => {
         }
     });
 });
-// Fade-In Effect on Scroll
-const allSections = document.querySelectorAll('section');
-
-const fadeInObserver = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-        }
-    });
-}, { threshold: 0.1 });
-
-allSections.forEach(section => fadeInObserver.observe(section));
 const backToTopButton = document.getElementById("back-to-top");
 
 // Show the button after scrolling down a certain amount
