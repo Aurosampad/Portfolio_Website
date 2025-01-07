@@ -23,7 +23,7 @@ body{
     flex: 1; /* Allow the text content to take remaining space */
     text-align: left; /* Align the text to the left */
 }
-#header {
+#home {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -41,12 +41,12 @@ body{
     object-fit: cover;
     object-position: center top;
 }
-#header p {
+#home p {
     font-size: 36px; /* Font size for the welcome text */
     font-weight: normal;
     margin-bottom: 20px; /* Add space below the welcome text */
 }
-#header h1 {
+#home h1 {
     font-family: 'Times of New Roman', sans-serif;
     font-size: 48px; /* Adjust font size for the description */
     line-height: 1; /* Ensure proper spacing between lines */
@@ -55,13 +55,13 @@ body{
     margin: 0; /* Center the text block */
     font-weight: normal;
 }
-#header h2 {
+#home h2 {
     margin: 0; /* Removes any space between lines */
     font-size: 100px; /* Matches the "Aurosampad Mohanty" size */
     font-weight: normal;
     text-align: left; /* Aligns to the left */
 }
-#header h3 {
+#home h3 {
     margin-top: 28px; 
     font-size: 48px; /* Matches the "Aurosampad Mohanty" size */
     font-weight: normal;
@@ -475,6 +475,36 @@ nav ul li a:hover {
     width: 100%;
     font-size: 14px;
   }
+  #back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px; /* Adjust padding for a cylindrical shape */
+    background-color: #070707; 
+    color: rgb(1, 1, 1);
+    border: none;
+    border-radius: 20px; /* Makes it cylindrical */
+    font-size: 16px; /* Text size */
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add a shadow for better visibility */
+    z-index: 1000;
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    opacity: 0; 
+    visibility: hidden;
+}
+#back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* Add hover effect */
+#back-to-top:hover {
+    background-color: #010202; /* Darker shade on hover */
+    transform: scale(1.1); /* Slightly larger on hover */
+}
+
   /* Responsive Design */
   @media screen and (max-width: 768px) {
     .timeline::before {
